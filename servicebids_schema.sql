@@ -1,0 +1,16 @@
+CREATE DATABASE servicebid;
+
+use servicebid;
+
+CREATE TABLE user (
+id int(11) AUTO_INCREMENT,
+username VARCHAR(50) NOT NULL,
+password VARCHAR(50) NOT NULL,
+photo VARCHAR(255) NOT NULL,
+location VARCHAR(100) NOT NULL,
+services VARCHAR(255) NOT NULL,
+about VARCHAR(255) NOT NULL,
+rating VARCHAR(50) NOT NULL,
+reviews VARCHAR(50) NOT NULL,
+ PRIMARY KEY (ID)
+);
